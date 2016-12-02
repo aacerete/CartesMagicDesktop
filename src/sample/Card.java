@@ -12,16 +12,8 @@ public class Card {
     private String imageUrl;
     private String text;
 
-    public Card(String name, String rarity, String type, String imageUrl, String color, String text) {
 
-        this.name = name;
-        this.rarity = rarity;
-        this.type = type;
-        this.imageUrl = imageUrl;
-        this.colors = color;
-        this.text = text;
 
-    }
 
     public String getName() {
 
