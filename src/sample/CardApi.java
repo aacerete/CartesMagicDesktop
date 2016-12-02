@@ -14,7 +14,7 @@ public class CardApi {
 
     private static String url="https://api.magicthegathering.io/v1/cards?page=10&pageSize=20";
 
-    public ArrayList<Card> getCards() {
+    public static ArrayList<Card> getCards() {
 
         ArrayList<Card> cards = new ArrayList<>();
 
